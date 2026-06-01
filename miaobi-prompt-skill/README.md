@@ -22,7 +22,17 @@
 | **➖ 减法** | **限制性“剪词降噪”**。用物理约束在正面描述中斩断 AI 的塑料假光与噪点。 | [👉 剪词降噪美学](references/jianci_noise_reduction.md) |
 | **✖️ 乘法** | **废片重塑与多轮资产化**。AI 是多轮对话，将废片转化为可再利用的数字资产。 | [👉 多轮资产重塑](references/waste_remolding_assets.md) |
 | **➗ 除法** | **感性具象与物理推演**。扮演中文视觉翻译官，在画面中反向推演生理微动。 | [👉 环境叙事心法](references/visual_translator_environmental.md) |
-| **🔄 逆** | **逆向拉片与灵魂反推**。分析骨架三维，套用公式完美复刻任意参考图。 | [👉 画面逆向反推](references/reverse_engineering_soul.md) |
+| 🔄 逆 | 逆向拉片与灵魂反推 | 分析骨架三维，套用公式完美复刻任意参考图。 | [👉 画面逆向反推](references/reverse_engineering_soul.md) |
+
+---
+
+## 🚦 高阶稳定性控制：AI 故事板与角色/风格一致性工作流 (详细介绍)
+
+纯靠提示词生成视频，极易导致镜头无逻辑（AI 不懂景别与运镜）、人物变脸换装、以及风格色调前后混乱。**AI 视频的不稳定，是因为没有提前理解拍摄逻辑。**
+
+*   **标准工业级流程**：1. 确定人物IP（三视图锁定） $\to$ 2. 剧情生成 $\to$ 3. 生成手绘故事板 $\to$ 4. 生成风格预想效果图 $\to$ 5. 情绪口型参考 $\to$ 6. 最终图生视频。
+*   **5套可直接复制模板**：人物三视图提示词、分镜剧情生成提示词、手绘故事板生成提示词、预想效果图生成提示词、最终视频生成提示词。
+*   *深入学习*：[👉 AI 故事板与视频稳定性控制工作流心法](references/storyboard_stability_workflow.md)。
 
 ---
 
@@ -58,7 +68,8 @@ miaobi-prompt-skill/
     ├── shot_sequence_inertia.md
     ├── textures_and_details.md
     ├── visual_translator_environmental.md
-    └── waste_remolding_assets.md
+    ├── waste_remolding_assets.md
+    └── storyboard_stability_workflow.md # [NEW] AI故事板与视频稳定性控制工作流
 ```
 
 ---

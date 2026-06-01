@@ -54,6 +54,7 @@ $$\text{中文还原提示词} = \text{核心不变项（构图/色彩/氛围）
 ### 3. 连续分镜惯性转换公式
 $$\text{下一分镜提示词} = \text{[锁定前帧基调]} + \text{[动作力学形变]} + \text{[机位随动位移]} + \text{[环境连锁反应]} + \text{[降噪限制句式]}$$
 *   检索并严格遵循 [👉 连续分镜与物理惯性推演心法](file:///d:/siklls/seedance_prompt_skill/miaobi-prompt-skill/references/shot_sequence_inertia.md)。
+*   **AI 视频与多镜头生图稳定性控制**：如果面临多镜头连续生图/视频失控变脸、画风混乱的情况，**必须检索并严格遵循** [👉 AI故事板与视频稳定性控制工作流](file:///d:/siklls/seedance_prompt_skill/miaobi-prompt-skill/references/storyboard_stability_workflow.md)，采用“三视图+故事板+预想效果图”的标准工业级流程。
 
 ---
 
